@@ -276,7 +276,7 @@ footer a:hover {
 @media (max-width: 768px) {
   header .content .logo-header .logo-tag,
   header .content .logo-header .logo-gsi {
-    width: 200px;
+    width: 175px;
   }
 
   nav {
