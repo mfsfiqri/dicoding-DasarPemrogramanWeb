@@ -39,6 +39,7 @@ header {
   height: 95vh;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -57,6 +58,7 @@ header:before {
 
 header .content {
   z-index: 1;
+  margin-bottom: 20px;
 }
 
 header h1 {
@@ -95,7 +97,7 @@ nav {
   gap: 25px;
   padding: 0.7rem 7%;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   background-color: #4a2024;
